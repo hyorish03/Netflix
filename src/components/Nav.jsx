@@ -19,7 +19,7 @@ function Nav() {
   }, []);
 
   return (
-    <div style={{ height: "110vh", width: "100%" }}>
+    <div style={{ width: "100%" }}>
       <nav className={`nav ${show && "nav_black"}`}>
         <img
           alt="Netflix Logo"
